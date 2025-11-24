@@ -1,0 +1,78 @@
+# Git
+.git/
+.gitignore
+README.md
+
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Alembic versions
+alembic/versions/
+
+# Tests
+tests/
+test/
+*test*.py
+
+# Local development files
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.jenkins/
